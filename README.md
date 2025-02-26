@@ -13,9 +13,15 @@ Fair Use Index data copied manually from the [US Govt Copyright Office Fair Use 
 - Consists of **6 Columns** available for **250 rows**: 
     - `Index(['Case', 'Year', 'Court', 'Jurisdiction', 'Categories', 'Outcome'], dtype='object')`
 
-### Data Distribution
+### Data Analysis
 
+#### **Summary of Outcomes over Decades**:
 
+![](static/images/fui_decade_outcomes_summary.png)
+
+#### **Summary of Outcomes per Year**:
+
+![](static/images/fui_year_counts_summary.png)
 
 ### Code Dependencies
 
