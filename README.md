@@ -14,36 +14,63 @@ Fair Use Index data copied manually from the [US Govt Copyright Office Fair Use 
     - `Index(['Case', 'Year', 'Court', 'Jurisdiction', 'Categories', 'Outcome'], dtype='object')`
 
 
-### Data Analysis
-
-Focusing on time, outcomes, and categories, the data is analyzed to understand the distributions in the Fair Use Index:
-
-#### **Summary of Outcomes over Decades**:
-
-![](static/images/fui_decade_outcomes_summary.png)
-
-#### **Summary of Outcomes per Year**:
-
-![](static/images/fui_year_counts_summary.png)
-
-#### **Summary of Outcomes per Decade**:
-
-![](static/images/fui_categories_decades_summary.png)
-
-
-#### **Summary of Outcomes per Year**:
-
-![](static/images/fui_categories_summary.png)
-
-
-### Data Analysis
+## Data Visualizations & Analysis
 
 This analysis is performed in a Jupyter Notebook with Python 3.11, using the index data to understand the distribution of the US Govt referenced cases across the years (decades), courts, jurisdictions, categories, and outcomes. 
 
 Steps are taken to visualize the data for summarization of the US Govt Fair Use Index over time, in support of my graduate course work for LAW-9580 Cybercrime at Penn Carey Law.
 
+Focusing on **time**, **outcomes**, and **categories**, the data is analyzed to understand the distributions in the Fair Use Index provided by the US Govt. The scope of my analysis focuses on Education and Research, and AI is used to assist in filtering all categories to differentiate parent categories from subcategories.
 
-### Development & Code Dependencies
+### **Summary of Total Cases per Year**:
+
+![](static/images/fui_year_counts_summary.png)
+
+### **Summary of Outcomes over Decades**:
+
+![](static/images/fui_decade_outcomes_summary.png)
+
+
+### **Summary of All Categories per Decade**:
+
+![](static/images/fui_categories_decades_summary.png)
+
+
+### **Summary of All Categories per Year**:
+
+![](static/images/fui_categories_summary.png)
+
+### **Summary of Categories (AI Infered) per Decade**:
+
+![](static/images/fui_categories_main_decade_summary.png)
+
+### **Summary of Categories (AI Infered) per Year**:
+
+![](static/images/fui_categories_main_years_summary.png)
+
+### **Summary of Outcomes per Categories over Decades**:
+
+#### Education & Research
+
+![](./static/images/fui_education_research_outcomes_summary.png)
+
+#### Digital and Technology
+
+![](./static/images/fui_digital_technology_outcomes_summary.png)
+
+#### Visual Arts
+
+![](./static/images/fui_visual_arts_outcomes_summary.png)
+
+#### Media & Entertainment
+
+![](./static/images/fui_media_entertainment_outcomes_summary.png)
+
+
+_____________________________
+
+
+## Development, Code Dependencies, and Reproducibility
 
 Using **Python 3.11**, run the following to replicate the code in a local [virtual environment](https://docs.python.org/3/library/venv.html) 
 
@@ -54,10 +81,4 @@ python3.11 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 jupyter notebook
-```
-
-- for AI summarization of the categories:
-
-```bash
-python category_ai.py
 ```
