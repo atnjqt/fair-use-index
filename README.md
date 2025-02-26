@@ -16,6 +16,8 @@ Fair Use Index data copied manually from the [US Govt Copyright Office Fair Use 
 
 ### Data Analysis
 
+Focusing on time, outcomes, and categories, the data is analyzed to understand the distributions in the Fair Use Index:
+
 #### **Summary of Outcomes over Decades**:
 
 ![](static/images/fui_decade_outcomes_summary.png)
@@ -24,9 +26,14 @@ Fair Use Index data copied manually from the [US Govt Copyright Office Fair Use 
 
 ![](static/images/fui_year_counts_summary.png)
 
+#### **Summary of Outcomes per Decade**:
+
+![](static/images/fui_categories_decades_summary.png)
+
+
 #### **Summary of Outcomes per Year**:
 
-![](./static/images/fui_categories_summary.png)
+![](static/images/fui_categories_summary.png)
 
 
 ### Data Analysis
