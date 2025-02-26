@@ -13,6 +13,7 @@ Fair Use Index data copied manually from the [US Govt Copyright Office Fair Use 
 - Consists of **6 Columns** available for **250 rows**: 
     - `Index(['Case', 'Year', 'Court', 'Jurisdiction', 'Categories', 'Outcome'], dtype='object')`
 
+
 ### Data Analysis
 
 #### **Summary of Outcomes over Decades**:
@@ -23,16 +24,6 @@ Fair Use Index data copied manually from the [US Govt Copyright Office Fair Use 
 
 ![](static/images/fui_year_counts_summary.png)
 
-### Code Dependencies
-
-**Python 3.11** is required to run the code in the [analysis.ipynb](analysis.ipynb) notebook with the following dependencies:
-
-```bash
-pip install pandas
-pip install matplotlib
-pip install seaborn
-pip install openpyxl
-```
 
 ### Data Analysis
 
@@ -40,3 +31,22 @@ This analysis is performed in a Jupyter Notebook with Python 3.11, using the ind
 
 Steps are taken to visualize the data for summarization of the US Govt Fair Use Index over time, in support of my graduate course work for LAW-9580 Cybercrime at Penn Carey Law.
 
+
+### Development & Code Dependencies
+
+Using **Python 3.11**, run the following to replicate the code in a local [virtual environment](https://docs.python.org/3/library/venv.html) 
+
+- for the [analysis.ipynb](analysis.ipynb) notebook:
+
+```bash
+python3.11 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+jupyter notebook
+```
+
+- for AI summarization of the categories:
+
+```bash
+python category_ai.py
+```
