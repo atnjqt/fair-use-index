@@ -24,6 +24,10 @@ Fair Use Index data copied manually from the [US Govt Copyright Office Fair Use 
 
 ![](static/images/fui_year_counts_summary.png)
 
+#### **Summary of Outcomes per Year**:
+
+![](./static/images/fui_categories_summary.png)
+
 
 ### Data Analysis
 
