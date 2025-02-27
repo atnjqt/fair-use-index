@@ -9,3 +9,4 @@ secret_config.json
 
 ./pdfs/
 *.pdf
+./agreed_terms/
