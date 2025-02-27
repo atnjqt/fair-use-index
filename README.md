@@ -123,6 +123,13 @@ Below are image exports of generated data visualizations from the analysis of th
 
 ________________
 
+## PDF Document Review
+
+- Using the [pdf-download.sh](./pdf-download.sh) script, download each PDF from the US Govt Fair Use Index website for review
+
+- TBD!
+
+```bash
 
 ## Conclusion
 
