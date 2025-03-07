@@ -123,6 +123,21 @@ Below are image exports of generated data visualizations from the analysis of th
 
 ________________
 
+## PDF Document Review
+
+- Using the [pdf-download.sh](./pdf-download.sh) script, download each PDF from the US Govt Fair Use Index website for review
+
+```bash
+$ ./pdf-download.sh 
+```
+
+- The PDFs are stored in the [./pdfs/](./pdfs/) directory! Manually inspect to confirm all files are valid and not corrupted. If any are corrupted, manually delete those files and re-run the script to download the PDFs again.
+
+- This [./pdfs/] directory will be used as a RAG KnowledgeBase for informing an AI model on the Fair Use Index cases for future analysis. The example will use Open-WebUI, TBD
+
+```bash
+docker run open-webui ....
+```
 
 ## Conclusion
 
